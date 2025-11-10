@@ -16,14 +16,11 @@
             "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
-            ],
-            "tsConfig": "tsconfig.app.json",
+            ], "tsConfig":
+            "tsconfig.app.json",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
-            ],
+              "src/favicon.ico",
+              "src/assets" ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.css",
               "node_modules/@fortawesome/fontawesome-free/css/all.css",
@@ -36,7 +33,7 @@
               "src/styles.css"
             ],
             "scripts": [
-              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.js",
               "src/assets/vendor/isotope-layout/isotope.pkgd.min.js",
               "src/assets/vendor/venobox/venobox.min.js",
               "src/assets/vendor/owl.carousel/owl.carousel.min.js",
@@ -91,18 +88,7 @@
               "zone.js",
               "zone.js/testing"
             ],
-            "tsConfig": "tsconfig.spec.json",
-            "assets": [
-              "src/assets",
-              "src/favicon.ico",
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
-            ],
-            "styles": [
-              "src/styles.css"
-            ]
+            "tsConfig": "tsconfig.spec.json"
           }
         }
       }
